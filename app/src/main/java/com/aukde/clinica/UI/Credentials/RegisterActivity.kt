@@ -37,6 +37,7 @@ class RegisterActivity : AppCompatActivity() {
              val progressBar = binding.rgProgressBar
 
              val user = Paciente("",
+                 System.currentTimeMillis(),
                  dni.text.toString(),
                  name.text.toString(),
                  last_name.text.toString(),
